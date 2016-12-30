@@ -1,7 +1,5 @@
 Vue.component('coupon', {
 
-	// NOTE: weird bug, using @blur triggers function 3 times on Vivaldi browser
-
 	template: `
 		<div>
 			<input type="text" placeholder="enter coupon code">
