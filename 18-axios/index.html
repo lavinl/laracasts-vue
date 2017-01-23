@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<!--<link rel="icon" href="favicon.ico">-->
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<div id="app">
+		<h1>Users</h1>
+		<ul>
+			<!-- use v-text to avoid conflict with templating engines -->
+			<li v-for="user in users">{{ user.name }}</li>
+		</ul>
+	</div>
+
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
